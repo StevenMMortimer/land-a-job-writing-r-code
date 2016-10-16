@@ -1,0 +1,115 @@
+
+/* makes title "section" slides white as well
+.reveal .state-background {
+  background: #FFFFFF !important;
+}
+ */
+ 
+.reveal pre {
+  margin-top: 30px;
+}
+
+/* makes code blocks smaller text */
+.reveal pre code {
+  font-size: 1em;
+  word-break: break-all;
+}
+
+/* leave R code blocks at 1em */
+.reveal code.r {
+  font-size: 1em;
+}
+
+/* changes header text colors
+.reveal h1 {
+  color: #555555 !important;
+  text-shadow: none !important;
+}
+
+.reveal h2, h3 ,h4 ,h5, h6, p {
+  color: #555555 !important;
+}
+*/
+
+.reveal .slides section .slideContent h3 {
+  font-weight: normal;
+  font-size: 1.55em;
+}
+
+/* stops title hyphenating if too long */
+.reveal h1, .reveal h2, .reveal h3 {
+  word-wrap: normal;
+  -moz-hyphens: none;
+}
+
+.reveal h1 {
+  font-size: 2.25em !important;
+  margin-top: 200px !important;
+}
+
+/* default placement of images is center */
+.midcenter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+.ignore-links a:not(.image) {
+  text-decoration: none !important;
+  color: black;
+}
+
+.ignore-links a:not(.image):hover {
+  text-decoration: none !important;
+  color: black;
+}
+
+/* inserts footer */
+.footer {
+  color: #555555 !important;
+  text-align: left !important;
+  position: absolute !important;
+  left: 0px !important;
+  bottom: 0px !important;
+  padding: 10px !important;
+  z-index: 100 !important;
+	font-size: 60% !important;
+}
+
+.footer2 {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  color: #555555 !important;
+  text-align: left !important;
+  position: absolute !important;
+  left: 0px !important;
+  bottom: 0px !important;
+  padding: 10px !important;
+  z-index: 100 !important;
+	font-size: 75% !important;
+}
+
+blockquote {
+  display: block !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  background-color: #F0F8FF !important;
+  border-radius: 15px !important;
+  padding: 15px !important;
+  border-color: cadetblue !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+}
+
+.reveal p, .reveal table {
+    margin-bottom: 10px;
+}
+
+.reveal sup {
+  vertical-align: super;
+  font-size: 60% !important;
+}
+
+ul li { padding: 5px 0px; }
