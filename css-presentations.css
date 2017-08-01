@@ -1,23 +1,31 @@
 
 /* makes title "section" slides white as well
 .reveal .state-background {
-  background: #FFFFFF !important;
+  background: #30499B !important;
 }
- */
+*/
  
+.section .reveal .state-background {
+  background: #30499B !important;
+}
+
+.alert .reveal .state-background {
+  background: #F9ED3A !important;
+} 
+
 .reveal pre {
-  margin-top: 30px;
+  margin-top: 30px !important;
 }
 
 /* makes code blocks smaller text */
 .reveal pre code {
-  font-size: 1em;
-  word-break: break-all;
+  font-size: 1em !important;
+  word-break: break-all !important;
 }
 
 /* leave R code blocks at 1em */
 .reveal code.r {
-  font-size: 1em;
+  font-size: 1em !important;
 }
 
 /* changes header text colors
@@ -32,14 +40,8 @@
 */
 
 .reveal .slides section .slideContent h3 {
-  font-weight: normal;
-  font-size: 1.55em;
-}
-
-/* stops title hyphenating if too long */
-.reveal h1, .reveal h2, .reveal h3 {
-  word-wrap: normal;
-  -moz-hyphens: none;
+  font-weight: normal !important;
+  font-size: 1.55em !important;
 }
 
 .reveal h1 {
@@ -47,11 +49,29 @@
   margin-top: 200px !important;
 }
 
+/* stops title hyphenating if too long */
+.reveal h1, .reveal h2, .reveal h3 .reveal p {
+  word-wrap: normal;
+  -moz-hyphens: none;
+}
+
+.reveal section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 0px solid black;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
+}
+
+.reveal a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: darkblue;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.55);
+}
+
 /* default placement of images is center */
 .midcenter {
-    position: fixed;
-    top: 50%;
-    left: 50%;
+  position: fixed;
+  top: 20%;
 }
 
 .ignore-links a:not(.image) {
@@ -104,7 +124,7 @@ blockquote {
 }
 
 .reveal p, .reveal table {
-    margin-bottom: 10px;
+  margin-bottom: 10px !important;
 }
 
 .reveal sup {
@@ -112,4 +132,10 @@ blockquote {
   font-size: 60% !important;
 }
 
-ul li { padding: 5px 0px; }
+ul li { 
+  padding: 5px 0px !important;
+}
+
+td {
+  vertical-align: middle !important;
+}
