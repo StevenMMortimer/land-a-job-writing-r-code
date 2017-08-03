@@ -8,7 +8,7 @@ height: 700
 
 
 
-Education
+About Me
 ====================================================
 title: true
 
@@ -18,11 +18,11 @@ I am a Wahoo!
 <br><br>
 <img src="./img/uvalogo.png" alt="UVA Cavaliers Logo" style="display:block;height:150px;" />
 <br>
-BA Statistics - Dec '09<br><br>
-MS Statistics - May '11
+BA Statistics - Dec &#39;09<br><br>
+MS Statistics - May &#39;11
 </div>
 
-Work
+About Me
 ====================================================
 title: true
 
@@ -42,7 +42,7 @@ Norfolk, VA<br>
 <i>Senior Manager of Data Science</i>
 </div>
 
-Interested In
+I'm Interested In
 ====================================================
 
 <div align="center">
@@ -51,10 +51,10 @@ Interested In
 </div>
 <hr>
 
- * Ingesting New Data Sources in R (RForcecom, rdfp, )
+ * Accessing New Data Sources (odbc, RForcecom, RSiteCatalyst)
  * Creating Webservices with R (opencpu, plumbr)
  * Building Web applications (Shiny)
- * Production Maching Learning Models (caret, broom, PFA)
+ * Production Maching Learning Models (caret, broom, aurelius)
 
 Disclaimer #1
 ====================================================
@@ -297,10 +297,28 @@ At the Interview
 
 Answering Technical Questions
 ====================================================
-<br>
-* Don't say I could Google it! 
-* Don't be afraid to ask for help
-* The interviewers want to hire you
 
-End
+Do <b><u>NOT</b></u> say "I could Google it"
+
+<div style="width:100%;height:0;padding-bottom:50%;position:relative;"><iframe src="https://giphy.com/embed/RJErpbNqZQ652" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/twilight-google-edward-cullen-RJErpbNqZQ652">via GIPHY</a></p>
+
+Answering Technical Questions
 ====================================================
+
+Do <b><u>NOT</b></u> be afraid to ask for help
+
+<div style="width:100%;height:0;padding-bottom:50%;position:relative;"><iframe src="https://giphy.com/embed/3oeHLllK27x6RDyFvq" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/buzzfeed-unsolved-3-horrifying-cases-of-ghosts-and-demons-3oeHLllK27x6RDyFvq">via GIPHY</a></p>
+
+Resources
+====================================================
+<br>
+<b>R-Users</b><br>
+https://www.r-users.com  
+<b>Upwork</b><br>
+https://www.upwork.com/o/jobs/browse/skill/r/
+<br><br>
+<i>Backup Resources</i><br><br>
+Indeed<br>https://www.indeed.com/q-R-Programmer-jobs.html 
+<br>
+SimplyHired<br>
+http://www.simplyhired.com/search?q=r+programming
