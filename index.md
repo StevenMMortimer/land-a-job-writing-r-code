@@ -1,7 +1,7 @@
 Land a Job Writing R Code
 ========================================
 author: Steve Mortimer
-date: September ??th, 2017
+date: September 13th, 2017
 css: css-presentations.css
 width: 960
 height: 700
@@ -46,7 +46,7 @@ I'm Interested In
 ====================================================
 
 <div align="center">
-  <span style="font-size:2em;">Actionable</span><br>
+  <span style="font-size:1.75em;">Actionable</span><br>
   <img src="./img/rlogo.png" alt="R Logo" style="height:3em;" />
 </div>
 <hr>
@@ -88,7 +88,7 @@ The Art of Ruby Technical Interviews
 <br>
 <br>
 <div align="center">
-  <iframe width="420" height="315" src="https://www.youtube.com/embed/nZNfSQKC-Yk"></iframe>
+  <iframe width="480" height="325" src="https://www.youtube.com/embed/nZNfSQKC-Yk"></iframe>
 </div>
 
 You're Interested in R
@@ -223,7 +223,7 @@ Know the Tools, Packages, etc.
 
 <blockquote>
   <b>Interview Tip:</b> Have a preference!<br>
-  "I'm open to tibble, but right now I use data.table."
+  "I'm open to using tibbles, but right now I like data.table."
 </blockquote>
 
 Commit to Open Source
